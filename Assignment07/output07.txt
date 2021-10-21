@@ -1,0 +1,146 @@
+truth_table: [False False False False]
+size = 4
+error return = False
+current state = False
+
+truth_table: [False False False False False False False False False False False False
+ False]
+size = 13
+error return = False
+current state = False
+
+truth_table: [False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False]
+size = 100
+error return = True
+current state = True
+
+truth_table: [ True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True]
+size = 21
+error return = False
+current state = False
+
+truth_table: [False  True]
+size = 2
+error return = True
+current state = True
+
+the AND gate using ints:
+ truth_table: [False False False  True]
+size = 4
+error return = False
+current state = False
+ 
+
+the AND gate using bools:
+ truth_table: [False False False  True]
+size = 4
+error return = False
+current state = False
+ 
+
+<class 'ValueError'> : Bad type in constructor. defining_list must be type list. 
+
+<class 'ValueError'> : Table size does not match list length in constructor. 
+
+<class 'ValueError'> : Bad type in constructor. defining_list must be type list. 
+
+--- Testing constructors and mutators of AND, even, >9 and >3 ---
+truth_table: [False False False  True]
+size = 4
+error return = False
+current state = False
+
+truth_table: [ True False  True False  True False  True False  True False]
+size = 10
+error return = False
+current state = False
+
+truth_table: [False False False False False False False False False False  True  True
+  True  True  True  True]
+size = 16
+error return = False
+current state = False
+
+truth_table: [False False False False  True  True  True  True  True  True  True  True
+  True  True  True  True]
+size = 16
+error return = False
+current state = False
+
+--- Testing intputs that cover the allowable and illegal values for AND ---
+False
+AND(0) = False
+False
+AND(1) = False
+False
+AND(2) = False
+True
+AND(3) = True
+False
+AND(4) = False
+False
+AND(5) = False
+False
+AND(6) = False
+False
+AND(7) = False
+False
+AND(8) = False
+False
+AND(9) = False
+As constructed -------------------
+[]
+
+Expected ... Segment at index 1 is not set
+
+['truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False]\nsize = 4\nerror return = False\ncurrent state = False\n']
+Evaluating my_12_seg at 2 (which should be True) -----------
+True
+
+segs 3, 5 and, illegal, 29:    True True False
+As constructed -------------------
+['truth_table: [ True False  True  True False  True  True  True  True  True  True False\n  True False  True  True]\nsize = 16\nerror return = False\ncurrent state = False\n', 'truth_table: [ True  True  True  True  True False False  True  True  True  True False\n False  True False False]\nsize = 16\nerror return = False\ncurrent state = False\n', 'truth_table: [ True  True False  True  True  True  True  True  True  True  True  True\n False  True False False]\nsize = 16\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True  True False  True  True False  True False False  True\n  True  True  True False]\nsize = 16\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False  True False False False  True False  True False  True  True\n  True  True  True  True]\nsize = 16\nerror return = False\ncurrent state = False\n', 'truth_table: [ True False False False  True  True  True False  True  True  True  True\n  True False  True  True]\nsize = 16\nerror return = False\ncurrent state = False\n', 'truth_table: [False False  True  True  True  True  True False  True  True  True  True\n False  True  True  True]\nsize = 16\nerror return = False\ncurrent state = False\n']
+
+Expected ... Number of segments not equal to 7
+
+
+| True | True | True | True | True | True | False | 
+
+| False | True | True | False | False | False | False | 
+
+| True | True | False | True | True | False | True | 
+
+| True | True | True | True | False | False | True | 
+
+| False | True | True | False | False | True | True | 
+
+| True | False | True | True | False | True | True | 
+
+| True | False | True | True | True | True | True | 
+
+| True | True | True | False | False | False | False | 
+
+| True | True | True | True | True | True | True | 
+
+| True | True | True | False | False | True | True | 
+
+| True | True | True | False | True | True | True | 
+
+| False | False | True | True | True | True | True | 
+
+| True | False | False | True | True | True | False | 
+
+| False | True | True | True | True | False | True | 
+
+| True | False | False | True | True | True | True | 
+
+| True | False | False | False | True | True | True | 

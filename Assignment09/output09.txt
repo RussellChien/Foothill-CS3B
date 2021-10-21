@@ -1,0 +1,109 @@
+Node (label=a, id=0x10d0f7198)
+Node (label=b, id=0x10d152080)
+Node (label=c, id=0x10d0fcef0)
+Node (label=d, id=0x10d164be0)
+Node (label=e, id=0x10d164c18)
+Node (label=f, id=0x10d164c88)
+Node (label=g, id=0x10d164cc0)
+Node (label=h, id=0x10d164cf8)
+Node (label=i, id=0x10d164d30)
+Node (label=j, id=0x10d164d68)
+Node (label=k, id=0x10d164da0)
+Node (label=l, id=0x10d164dd8)
+Node (label=m, id=0x10d164e10)
+Node (label=n, id=0x10d164e48)
+Node (label=o, id=0x10d164e80)
+Node (label=p, id=0x10d164eb8)
+Node (label=q, id=0x10d164ef0)
+Node (label=r, id=0x10d164f28)
+Node (label=s, id=0x10d164f60)
+Node (label=t, id=0x10d164f98)
+Node (label=u, id=0x10d164fd0)
+Node (label=v, id=0x10d183048)
+Node (label=w, id=0x10d183080)
+Node (label=x, id=0x10d1830b8)
+Node (label=y, id=0x10d1830f0)
+Node (label=z, id=0x10d183128)
+whole tree
+--- beginning of tree, size=14 ---
+Node (label=a, id=0x10d0f7198)
+  Node (label=b, id=0x10d152080)
+    Node (label=e, id=0x10d164c18)
+      Node (label=l, id=0x10d164dd8)
+    Node (label=f, id=0x10d164c88)
+    Node (label=g, id=0x10d164cc0)
+      Node (label=m, id=0x10d164e10)
+      Node (label=n, id=0x10d164e48)
+    Node (label=h, id=0x10d164cf8)
+  Node (label=c, id=0x10d0fcef0)
+    Node (label=i, id=0x10d164d30)
+    Node (label=j, id=0x10d164d68)
+    Node (label=k, id=0x10d164da0)
+  Node (label=d, id=0x10d164be0)
+--- end of tree ---
+after removing b
+--- beginning of tree, size=6 ---
+Node (label=a, id=0x10d0f7198)
+  Node (label=c, id=0x10d0fcef0)
+    Node (label=i, id=0x10d164d30)
+    Node (label=j, id=0x10d164d68)
+    Node (label=k, id=0x10d164da0)
+  Node (label=d, id=0x10d164be0)
+--- end of tree ---
+after removing l
+--- beginning of tree, size=6 ---
+Node (label=a, id=0x10d0f7198)
+  Node (label=c, id=0x10d0fcef0)
+    Node (label=i, id=0x10d164d30)
+    Node (label=j, id=0x10d164d68)
+    Node (label=k, id=0x10d164da0)
+  Node (label=d, id=0x10d164be0)
+--- end of tree ---
+after removing j
+--- beginning of tree, size=5 ---
+Node (label=a, id=0x10d0f7198)
+  Node (label=c, id=0x10d0fcef0)
+    Node (label=i, id=0x10d164d30)
+    Node (label=k, id=0x10d164da0)
+  Node (label=d, id=0x10d164be0)
+--- end of tree ---
+after removing c
+--- beginning of tree, size=2 ---
+Node (label=a, id=0x10d0f7198)
+  Node (label=d, id=0x10d164be0)
+--- end of tree ---
+after removing b
+--- beginning of tree, size=2 ---
+Node (label=a, id=0x10d0f7198)
+  Node (label=d, id=0x10d164be0)
+--- end of tree ---
+after removing a --- beginning of tree, size=1 ---
+Node (label=a, id=0x10d0f7198)
+--- end of tree ---
+--- beginning of tree, size=None ---
+0
+--- end of tree ---
+whole tree
+--- beginning of tree, size=5 ---
+0
+  1
+    5
+      6
+--- end of tree ---
+after removing 2
+--- beginning of tree, size=6 ---
+0
+  1
+    5
+      7
+--- end of tree ---
+after removing 5
+--- beginning of tree, size=6 ---
+0
+  1
+    5
+      8
+--- end of tree ---
+0
+  1
+sum of all nodes: 1

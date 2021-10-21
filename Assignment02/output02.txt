@@ -1,0 +1,18 @@
+3 Failed. Insufficient operators in expression.
+2 3 + = 5
+2 3 - = 1
+2 3 * = 6
+2 3 // = 1
+2 3 4 + * = 14
+2 3 4 + - = 5
+2 3 4 + + = 9
+  Failed. Insufficient operators in expression.
+1 + Failed. Insufficient numbers in expression.
+1 1 Failed. Insufficient operators in expression.
+1 1 fly Failed. Invalid operator.
+2 -4 2 * // = -4
+-1 2 7 -10 * + - = -67
+5 -6 8 2 3 * // - + = 11
++ - * Failed. This is postfix notation; numbers go before operator.
+test Failed. Invalid operator.
++ 1 2 Failed. This is postfix notation; numbers go before operator.

@@ -1,0 +1,48 @@
+{
+  "copyright": "foothill cs3b",
+  "purpose": "sample dictionary.json for assignment #8",
+  "todo": "add at least 3 more words with part of speech, definition, and optionally example of usage",
+  "entries": [
+    {
+      "word": "ace",
+      "partOfSpeech": "noun",
+      "definition": "a playing card with a single spot on it, ranked as the highest card in its suit in most card games",
+      "example": "life had started dealing him aces again"
+    },
+    {
+      "word": "python",
+      "partOfSpeech": "noun",
+      "definition": "a large heavy-bodied non-venomous snake occurring throughout the Old World tropics, killing prey by constriction and asphyxiation."
+    },
+    {
+      "word": "foothill",
+      "partOfSpeech": "noun",
+      "definition": "a low hill at the base of a mountain or mountain range",
+      "example":  "the camp lies in the foothills of the Andes"
+    },
+    {
+      "word": "fly",
+      "partOfSpeech": "verb",
+      "definition": "(of a bird, bat, or insect) move through the air using wings",
+      "example":  "he was sent flying by the tackle"
+    },
+    {
+      "word": "cake",
+      "partOfSpeech": "noun",
+      "definition": "an item of soft, sweet food made from a mixture of flour, shortening, eggs, sugar, and other ingredients, baked and often decorated.",
+      "example": "a carrot cake"
+    },
+    {
+      "word": "write",
+      "partOfSpeech": "verb",
+      "definition": "mark (letters, words, or other symbols) on a surface, typically paper, with a pen, pencil, or similar implement.",
+      "example": "he wrote his name on the paper"
+    },
+    {
+      "word": "run",
+      "partOfSpeech": "verb",
+      "definition": "move at a speed faster than a walk, never having both or all the feet on the ground at the same time.",
+      "example": "the dog ran across the road"
+    }
+  ]
+}

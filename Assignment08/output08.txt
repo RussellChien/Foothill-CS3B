@@ -1,0 +1,69 @@
+Search a word to define:ace
+ace
+noun
+a playing card with a single spot on it, ranked as the highest card in its suit in most card games
+life had started dealing him aces again
+DictionarySource.LOCAL
+
+Search a word to define:ace
+ace
+noun
+a playing card with a single spot on it, ranked as the highest card in its suit in most card games
+life had started dealing him aces again
+DictionarySource.CACHE
+
+Search a word to define:cake
+cake
+noun
+an item of soft, sweet food made from a mixture of flour, shortening, eggs, sugar, and other ingredients, baked and often decorated.
+a carrot cake
+DictionarySource.LOCAL
+
+Search a word to define:write
+write
+verb
+mark (letters, words, or other symbols) on a surface, typically paper, with a pen, pencil, or similar implement.
+he wrote his name on the paper
+DictionarySource.LOCAL
+
+Search a word to define:cake
+cake
+noun
+an item of soft, sweet food made from a mixture of flour, shortening, eggs, sugar, and other ingredients, baked and often decorated.
+a carrot cake
+DictionarySource.CACHE
+
+Search a word to define:ace
+ace
+noun
+a playing card with a single spot on it, ranked as the highest card in its suit in most card games
+life had started dealing him aces again
+DictionarySource.LOCAL
+
+Search a word to define:foothill
+foothill
+noun
+a low hill at the base of a mountain or mountain range
+the camp lies in the foothills of the Andes
+DictionarySource.LOCAL
+
+Search a word to define:python
+python
+noun
+a large heavy-bodied non-venomous snake occurring throughout the Old World tropics, killing prey by constriction and asphyxiation.
+None
+DictionarySource.LOCAL
+
+Search a word to define:python
+python
+noun
+a large heavy-bodied non-venomous snake occurring throughout the Old World tropics, killing prey by constriction and asphyxiation.
+None
+DictionarySource.CACHE
+
+Search a word to define:run
+run
+verb
+move at a speed faster than a walk, never having both or all the feet on the ground at the same time.
+the dog ran across the road
+DictionarySource.LOCAL
