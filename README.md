@@ -1,2 +1,2 @@
 # Foothill-CS3B
-Repository for Foothill College course CS3B
+Labs for CS3B: Intermediate Software Design - Python 
